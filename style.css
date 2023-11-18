@@ -1,0 +1,460 @@
+@font-face {
+  font-family: "bently";
+  src: url("fonts/Bentley\ Light.woff.ttf") format("woff");
+  /* You can also include other formats for compatibility */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 101px;
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.header {
+  width: 89.45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  width: 176px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 10px 0 15px;
+}
+.logo {
+  width: 116px;
+  height: 58px;
+}
+.nav-list-container {
+  padding-left: 100px;
+  display: inline-flex;
+}
+.nav-list {
+  display: flex;
+  gap: 70px;
+  font-family: "bently";
+  list-style: none;
+  font-weight: normal;
+  color: #5b5b5b;
+  font-size: 17px;
+}
+.navlist > li{
+  display: inline-flex;
+}
+.nav-list-container-2 {
+  width: 329px;
+  height: 100%;
+  display: flex;
+  margin-left: 118px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.nav-list-container-3 {
+  width: 250px;
+  height: 100%;
+}
+.nav-list-container-2 > .nav-list {
+  gap: 20px;
+  font-size: 14px;
+}
+.nav-list-container-3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container-3 {
+  width: 85%;
+  height: 36%;
+  background-color: #335b4c;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail {
+  background-color: aquamarine;
+  width: 100%;
+  height: 647px;
+  position: relative;
+  background-image: url(images/1920x1080_ewb_hero_final_hpc.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at right, transparent 54%, black 94%);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  z-index: 1;
+  width: 415px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 37px;
+}
+
+.content {
+  text-align: center;
+  font-family: "bently";
+  text-align: start;
+}
+
+.content h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.content h4 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
+
+.button-container {
+  width: 415px;
+  height: 147px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  height: 52px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.green-button {
+  background-color: #335b4c;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.transparent-button {
+  background-color: transparent;
+  color: #4caf50;
+  border: 3px solid white;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.section-2 {
+  width: 100%;
+  height: 1511px;
+  display: block;
+  cursor: pointer;
+}
+.section-2-main {
+  width: 100%;
+  height: 377.8px;
+  background-color: #335b4c;
+  display: flex;
+}
+.section-2-main2 {
+  width: 100%;
+  height: 377.8px;
+  background-color: #335b4c;
+  display: flex;
+}
+.section-2-main3 {
+  width: 100%;
+  height: 377.8px;
+  background-color: #335b4c;
+  display: flex;
+}
+.section-2-main4 {
+  width: 100%;
+  height: 377.8px;
+  background-color: #335b4c;
+  display: flex;
+}
+
+.section-2-inner-main {
+  width: 50%;
+  height: 100%;
+  background-color: #4caf50;
+  display: inline-flex;
+  background-image: url(images/1.jpg);
+  background-size: 100% auto;
+}
+.section-2-inner-main2 {
+  width: 50%;
+  height: 100%;
+  background-color: #4caf50;
+  display: inline-flex;
+  background-size: 100% auto;
+}
+.text-of-inner-main {
+  width: auto;
+  height: 52.4px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "bently";
+  padding: 16px;
+  font-size: 18px;
+  opacity: 85%;
+}
+.text-of-inner-main:hover {
+  opacity: 100%;
+}
+
+.section-2-main > .section-2-inner-main2 {
+  background-image: url(images/2.jpg);
+}
+.section-2-main2 > .section-2-inner-main {
+  background-image: url(images/3.jpg);
+}
+.section-2-main2 > .section-2-inner-main2 {
+  background-image: url(images/4.jpg);
+}
+.section-2-main3 > .section-2-inner-main {
+  background-image: url(images/5.jpg);
+}
+.section-2-main3 > .section-2-inner-main2 {
+  background-image: url(images/6.jpg);
+}
+.section-2-main4 > .section-2-inner-main {
+  background-image: url(images/7.jpg);
+}
+.section-2-main4 > .section-2-inner-main2 {
+  background-image: url(images/8.jpg);
+}
+
+.third-section {
+  width: 100%;
+  background-color: #e6eae9;
+  display: inline-flex;
+  justify-content: center;
+}
+.list-of-third-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1276px;
+  padding: 0;
+  flex-grow: 1;
+  border-left: 1px solid #d8d9dc;
+  font-size: 14px;
+  font-weight: 600;
+}
+.list-elements {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+.list-elements:hover {
+  background-color: #ccd6d2;
+}
+
+.list-elements a {
+  padding: 35px 0;
+  display: block;
+  text-decoration: none;
+  font-family: "Bentley";
+  color: rgb(51, 91, 76);
+}
+.list-elements > a > img {
+  height: 32px;
+  width: 32px;
+}
+.span-of-list-elements {
+  display: block;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: "bently";
+}
+
+.fourth-section {
+  width: 100%;
+  margin: auto;
+  height: 371px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  display: inline-flex;
+  justify-content: center;
+  display: block;
+  border-bottom: 1px solid #d8d9dc;
+}
+
+.fourth-section-inner {
+  width: 100%;
+  height: 212px;
+  margin: auto;
+  display: flex;
+}
+.fourth-section-main {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+}
+.icons {
+  width: 1276px;
+  height: 36px;
+  display: block;
+
+  margin: auto;
+  margin-top: 50px;
+}
+
+.inner-divs {
+  flex-grow: 1;
+  color: #727376;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "bently";
+}
+.inner-divs > p {
+  line-height: 25px;
+  padding-top: 1px;
+}
+.inner-divs > h5 {
+  font-size: 16px;
+  margin: 0;
+}
+.inner-divs > i {
+  width: 32px;
+  height: 32px;
+}
+.icons-div {
+  width: 474px;
+  height: 100%;
+
+}
+.icons-div > ul {
+  display: flex;
+  padding: 0;
+
+}
+.list-of-icons {
+  list-style: none;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 16px;
+}
+.list-of-icons > img {
+  width: 32px;
+  height: 32px;
+}
+.fifth-section {
+  padding: 48px 0;
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.fifth-section-main {
+  width: 1276px;
+  height: 100%;
+  margin: auto;
+  padding: 48px 0;
+  display: block;
+  position: absolute;
+  top: 0%;
+
+}
+.navbar-footer
+{
+  margin-left: -15px;
+}
+.footer-links {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.terms {
+  width: 100%;
+  height: 86px;
+  margin: 24px 0 0;
+  color: #727376;
+}
+
+.ul-inside-footer-nav
+{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  /* padding-right: 10px; */
+  font-family: 'bently';
+  font-size: 16px;
+  color: #727376;
+  
+}
+.ul-inside-footer-nav > .list-of-icons {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+
+
+
+.nav-bar-links
+{
+  color: #727376;
+}
+.nav-bar-links:hover
+{
+  text-decoration: none;
+}
